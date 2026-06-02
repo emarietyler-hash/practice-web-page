@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style> a:hover {color: #FF00FF;} 
+            a:focus {color: #FF00FF; outline: 2px solid #FF00FF;}
+         table, th, td { margin: 1px; border: 3px solid #000; padding: 10px; }
+         th { background-color: #DE5D83;}
+            </style>
+        <title>Elizabeth's Test Website</title>
+    </head>
+    <body style="background-color: #FADADD;">
+        <a href="#main-content" class="skip-link">Skip to main content</a>
+        <header>
+            <h1>Elizabeth's Test Website</h1>
+        </header>
+        <main id="main-content">
+            <ul>
+                <li><a href="#first-section">First Section</a></li>
+                <li><a href="#second-section">Second Section</a></li>
+                <li><a href="#third-section">Third Section</a></li>
+                <li><a href="#contact-section">Contact Me</a></li>
+            </ul>
+            <h2><strong>First Section</strong></h2>
+            <img src="https://media.licdn.com/dms/image/v2/C4D03AQFW2NF2awUuoA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1526476226033?e=1781740800&v=beta&t=cnT4ldP5aEGMrmajd6IGNp-fqrzGlwfTTxpdXmD1MnE" alt="Elizabeth Greenlaw Headshot" width="150" height="150">
+            <p>Welcome to my test website! This is a simple page to demonstrate basic HTML structure.
+            <p><em>Feel free to explore and learn more about HTML!</em></p>
+             <ol>
+                <li>HTML Basics</li>
+                <li>Accessibility in HTML</li>
+                <li>Additional Considerations</li>
+            </ol>
+            <h2><strong>Second Section</strong></h2>
+            <p>This is the content for the second section of my test website.</p>  
+            <p style="font-family: 'Courier New', Courier, monospace;" >HTML is a great way to create web pages and share information on the internet.</p>
+            <p><sup>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</sup></p>
+            <img src="https://www.w3.org/WAI/content-images/tutorials/images/chart.png" alt="Chart demonstrating HTML accessibility features" width="600" height="400" aria-describedby="description">
+                <p id="description"><sub>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</sub></p>
+            <h2><strong>Third Section</strong></h2>
+            <p>Thank you for visiting my test website! I hope you found it informative and enjoyable.</p>
+            
+            <table>
+                <caption><strong>HTML Accessibility Features</strong></caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Feature</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Semantic HTML</td>
+                        <td>Using appropriate HTML elements to convey meaning and structure.</td>
+                        <td><code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, etc.</td>
+                    </tr>
+                    <tr>
+                        <td>Alt Text for Images</td>
+                        <td>Providing descriptive text for images to assist users with visual impairments.</td>
+                        <td><code>&lt;img src="image.jpg" alt="Description of the image"&gt;</code></td>    
+                    </tr>
+                    <tr>
+                        <td>Keyboard Navigation</td>
+                        <td>Ensuring that all interactive elements can be accessed and used with a keyboard.</td>
+                        <td><code>&lt;a&gt;</code>, <code>&lt;button&gt;</code>, etc.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p><em>Feel free to contact me if you have any questions or feedback!</em></p> 
+            <p><a href="https://www.linkedin.com/in/elizabethgreenlaw/" target="_blank" aria-label="Find me on Linkedin (opens in new tab)">Find me on LinkedIn</a>.</p>
+            
+            <h3>Contact Me</h3> 
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                <label for="subscribe">Subscribe to newsletter</label><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                <input type="submit" value="Submit">
+        </main>
+        <footer>
+            <p>&copy; 2026 Elizabeth's Test Website</p>
+        </footer>
+    </body>
+</html> 
